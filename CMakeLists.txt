@@ -16,3 +16,5 @@ qi_create_lib(libbar
   ${PUBLIC_HEADERS}
   ${SRCS}
 )
+
+qi_stage_lib(libbar)
