@@ -12,6 +12,9 @@ set(SRCS
 )
 
 add_library(libbar
+  SHARED
   ${PUBLIC_HEADERS}
   ${SRCS}
 )
+
+install(TARGETS libbar DESTINATION ${CMAKE_INSTALL_PREFIX})
